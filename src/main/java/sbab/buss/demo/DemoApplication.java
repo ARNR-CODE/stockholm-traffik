@@ -32,7 +32,7 @@ public class DemoApplication {
             System.out.println("Line :" + entry.getKey());
             System.out.println("Bus stops o onn their route " + entry.getValue().getStopAreaCounter());
             entry.getValue().getNames().forEach(System.out::println);
-            System.out.println("--------------------------------");
+            System.out.println("**************************************");
         }
         System.out.println("End of fetching data, Thank you for your patient.. ");
     }
