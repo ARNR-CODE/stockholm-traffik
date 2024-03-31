@@ -1,0 +1,11 @@
+traffic:
+  base: https://transport.integration.sl.se/v1
+  sites: /sites
+  lines: /lines
+  stopPoint: /stop-points
+  departures: /departures
+  transport: BUS
+  transportAuthorityId : 1
+  expand : false
+  type: BUSSTOP
+
