@@ -30,7 +30,7 @@ public class DemoApplication {
         List<Map.Entry<Integer, Line>> data = trafficApi.fetchDataFromApi();
         for (Map.Entry<Integer, Line> entry : data) {
             System.out.println("Line :" + entry.getKey());
-            System.out.println("Bus stops o onn their route " + entry.getValue().getStopAreaCounter());
+            System.out.println("Bus stops counter their route " + entry.getValue().getStopAreaCounter());
             entry.getValue().getNames().forEach(System.out::println);
             System.out.println("**************************************");
         }
